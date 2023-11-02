@@ -253,7 +253,7 @@ a:focus {
 }
 
 .slider_item-container {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -284,11 +284,21 @@ a:focus {
 
 .slider_item-imgbox {
   margin-top: 45px;
+  margin-bottom: 20px;
   width: 75%;
 }
 
 .slider_item-imgbox img {
   width: 100%;
+}
+
+.slider_item-imgbox img {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  border-radius: 15px;
 }
 
 .slider_section #carouselExampleControls,
@@ -365,13 +375,13 @@ a:focus {
 
 .about_img-container {
   width: 225px;
-  background-color: #1ba1b9;
+  background-color: #1ba1b900;
   height: 225px;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 25px solid #d7daf4;
+  border: 25px solid #d7daf4c5;
   margin: 0 auto 45px auto;
 }
 
@@ -457,7 +467,7 @@ a:focus {
 }
 
 .feature_img-container {
-  background-color: #1ba1b9;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -466,7 +476,7 @@ a:focus {
 }
 
 .feature_img-box {
-  width: 100px;
+  width: 100%;
 }
 
 .feature_card {
